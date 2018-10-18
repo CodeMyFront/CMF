@@ -1007,8 +1007,7 @@ body {
 }
 
 .title {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 0;
     margin-bottom: 30px;
 }
@@ -1016,13 +1015,35 @@ body {
 .subtitle {
     color: #f47645;
     font-size: 18px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    text-align: end;
+    align-items: center;
+}
+
+.navigation li {
+    padding: 0px 20px;
+}
+
+.navigation li:last-child {
+    padding-right: 0;
+}
+
+.navigation li a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .head {
-    margin-bottom: 40px;
+    margin-bottom: 45px;
 }
 
 .head:after {
@@ -1041,13 +1062,20 @@ body {
 .intro-section__content {
     position: relative;
     z-index: 2;
+    margin-top: 50px;
 }
 
-.intro-section__background-shape {
-    position: absolute;;
+.intro-section__shape {
+    position: absolute;
     bottom: 0px;
     z-index: 1;
     width: 100%;
+}
+
+.intro-section__title {
+    color: #fff;
+    font-size: 46px;
+    /* text-transform: capitalize; */
 }
 
 .section {
@@ -1085,6 +1113,39 @@ body {
     text-align: center;    
 }
 
+.button-subtext {
+    display: inline-block;
+    transform: translateY(0px);
+    margin-right: 5px;
+    font-weight: 500;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 8px;
+    background: #f47645;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.counter {
+    margin: 40px 0;
+}
+
+.counter__title {
+    font-size: 36px;
+    margin-bottom: 0;
+    color: #f47645;
+}
+
+.counter__label {
+    font-size: 16px;
+    margin: 0;
+}
+
 .image {
     max-width: 100%;
 }
@@ -1095,6 +1156,7 @@ body {
     position: relative;
     border-radius: 8px;
     background: #fff;
+    padding: 40px 0;
 }
 
 .browser-mockup:before {
