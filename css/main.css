@@ -98,6 +98,16 @@ Author's custom styles
 ========================================================================== */
 /* Uncomment and set these variables to customize the grid. */
 
+*, *:after, *:before {
+    box-sizing: border-box;    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: rgb(50, 50, 50);
+}
+
 .container-fluid {
     margin-right: auto;
     margin-left: auto;
@@ -996,6 +1006,33 @@ Author's custom styles
     }
 }
 
+.title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.subtitle {
+    color: #f47645;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.head {
+    margin-bottom: 40px;
+}
+
+.head:after {
+    width: 40px;
+    height: 3px;
+    background: #f47645;
+    content: '';
+    display: block;
+}
+
 .intro-section {
     background-image: -webkit-linear-gradient(-180deg,#49C5DD 0,#77ecdb 80%);
     min-height: 100vh;
@@ -1011,6 +1048,19 @@ Author's custom styles
     bottom: 0px;
     z-index: 1;
     width: 100%;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.section__title {
+    font-size: 36px;
+}
+
+.projects-section {
+    background: url('../img/bg_image_2.png') no-repeat;
+    background-size: 60% 100%;
 }
 
 .top-bar {
