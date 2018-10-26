@@ -1012,6 +1012,11 @@ body {
     background-repeat: no-repeat, no-repeat;
 }
 
+.intro-section__content {
+    width: 40%;
+    margin-left: 80px;
+}
+
 .tile {
     padding: 80px;
     align-items: center;
@@ -1019,7 +1024,7 @@ body {
 }
 
 .tile--about-us {
-    background: #F4E3B2;
+    background: #2C8693;
     height: 100%;
 }
 
@@ -1028,7 +1033,7 @@ body {
 }
 
 .service--e-commerce {
-    background: #B2DBBF;
+    background: #105187;
     height: 50%;
 }
 
@@ -1057,6 +1062,7 @@ body {
 .title {
     font-size: 46px;
     margin-top: 0;
+    font-weight: 600;
 }
 
 .title.title--smaller {
@@ -1092,7 +1098,7 @@ body {
 
 .call-to-action {
     padding: 15px 30px;
-    background: #FF1654;
+    background: #C33325;
     text-transform: uppercase;
     color: #fff !important;
     border-radius: 8px;
@@ -1103,6 +1109,31 @@ body {
 .button-subtext {
     font-weight: 400;
     margin-right: 5px;
+}
+
+.cursor {
+    animation: 0.7s infinite blink;
+}
+
+@keyframes blink
+{
+    0%   {  opacity: 1;  }
+    50%   {  opacity: 1;  }   
+    51% {opacity: 0;} 
+	100% {  opacity: 0;  }
+}
+
+@-webkit-keyframes blink {
+    0%   {  opacity: 1;  }
+    50%   {  opacity: 1;  }   
+    51% {opacity: 0;} 
+	100% {  opacity: 0;  }
+}
+@-moz-keyframes blink {
+    0%   {  opacity: 1;  }
+    50%   {  opacity: 1;  }   
+    51% {opacity: 0;} 
+	100% {  opacity: 0;  }
 }
 
 /* ==========================================================================
