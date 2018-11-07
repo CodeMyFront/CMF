@@ -1023,9 +1023,9 @@ Author's custom styles
 }
 
 .intro-wrapper {
-    background: -moz-linear-gradient(left, rgba(151,92,241,0.35) 0%, rgba(96,160,251,0.75) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, rgba(151,92,241,0.35) 0%,rgba(96,160,251,0.75) 100%), url('../img/top_mockup.png'); /* Chrome10-25,Safari5.1-6 */
-    background: url('../img/top_mockup_1.png') no-repeat, linear-gradient(to right, rgba(151,92,241,0.35) 0%,rgba(96,160,251,0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -moz-linear-gradient(left, rgba(151,92,241,0.55) 0%, rgba(96,160,251,0.95) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(151,92,241,0.55) 0%,rgba(96,160,251,0.95) 100%), url('../img/top_mockup.png'); /* Chrome10-25,Safari5.1-6 */
+    background: url('../img/top_mockup_1.png') no-repeat, linear-gradient(to right, rgba(151,92,241,0.55) 0%,rgba(96,160,251,0.85) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     background-size: auto 55%, auto;
     background-position: right center, left top;
     height: 100vh;
