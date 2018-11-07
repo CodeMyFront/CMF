@@ -1092,7 +1092,7 @@ Author's custom styles
 
 .intro-content .intro-content__title {
     font-size: 46px;
-    margin-bottom: 60px;
+    margin-bottom: 0;
 }
 
 .section {
