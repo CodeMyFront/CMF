@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
+  <title>Codemyfront - Webdevelopment, Software house</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
@@ -12,147 +12,188 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
   
-  <link href="https://fonts.googleapis.com/css?family=Archivo:400,500,700&amp;subset=latin-ext" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,500&amp;subset=latin-ext">
+  <link rel="stylesheet" href="css/icofont.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
   <!-- Add your site or application content here -->
-  <div class="container-fluid">
-    <header>
-      <div class="row middle-xs middle-sm middle-md middle-lg">
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <h1><a href="">codemyfront.</a></h1>
-        </div>
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-          <nav>
-            <ul class="navigation-list">
-              <li><a href="/">Kim jesteśmy?</a></li>
-              <li><a href="/">Realizacje</a></li>
-              <li><a href="/">Kontakt</a></li>
-              <li><a href="/" class="call-to-action">Darmowa wycena</a></li>
-            </ul>
-          </nav>
+  <div class="intro">
+    <video autoplay muted loop class="video-background">
+      <source src="videos/intro_background.mp4" type="video/mp4">
+      </video>
+      <div class="intro-wrapper">
+        <div class="container container--full-height container--relative">
+          <header class="top-bar">
+            <h1 class="logo-title">
+              <a href="/" class="logo-title__link">
+                <img class="logo-title__image" src="img/codemyfront_logo.svg" alt="codemyfront">
+              </a>
+            </h1>
+            <nav>
+              <ul class="navigation-list">
+                <li><a href="/">Realizacje</a></li>
+                <li><a href="/">Kontakt</a></li>
+                <li><a href="/" class="call-to-action">Darmowa wycena</a></li>
+              </ul>
+            </nav>
+          </header>
+          <section class="intro-content">
+            <div class="row row--full-height middle-xs middle-sm middle-md middle-lg">
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
+                <div>
+                  <p class="subtitle intro-content__subtitle">Współpracuj z ludźmi którzy to kochają</p>
+                  <h2 class="title intro-content__title">Stworzy<span class="highlight-text">my</span> rozwiązanie dla Ciebie i twojego <span class="typewrite" data-period="2000" data-type='["biznesu.", "produktu."]'>biznesu.</span></h2>
+                  <!-- <div class="row">
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <div class="counter counter--first" data-count-start="0" data-count-end="98">
+                        <div class="counter__icon-wrapper"><i class="icofont-dashboard-web counter__icon"></i></div>
+                        <p class="counter__value"><span class="js-counter-numbers">16</span></p>
+                        <p class="counter__text">udanych projektów</p>
+                      </div>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <div class="counter" data-count-start="0" data-count-end="98">
+                        <div class="counter__icon-wrapper"><i class="icofont-nerd-smile counter__icon"></i></div>
+                        <p class="counter__value"><span class="js-counter-numbers">98</span>%</p>
+                        <p class="counter__text">zadowolonych klientów</p>
+                      </div>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <div class="counter counter--last" data-count-start="0" data-count-end="98">
+                        <div class="counter__icon-wrapper"><i class="icofont-coffee-pot counter__icon"></i></div>
+                        <p class="counter__value"><span class="js-counter-numbers">146</span></p>
+                        <p class="counter__text">litrów wypitej kawy</p>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
-    </header>
-    <section class="intro-section">
-      <div class="row row--full-height middle-xs middle-sm middle-md middle-lg">
-        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
-          <div class="intro-section__content">
-            <p class="title">Cyfrowe rozwiązania dla Ciebie i twojego <span class="title__highlight typewrite" data-period="3000" data-type='["biznesu.", "produktu."]'>biznesu</span></p>
-            <div class="row">
-              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
-              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
-              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>              
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <div class="tile tile--about-us">
-            <div>
-              <h2 class="title">Z pasją dla twojej firmy.</h2>
-              <div>
-                <p>Jesteśmy zespołem profesjonalnych oraz doświadczonych programistów i analityków. Wspólnie tworzymy agencję pomagającą firmom oraz startup'om w tworzeniu i rozwoju stron internetowych, sklepów oraz dedykowanego oprogramowania.</p>
-                <p>Mając na uwadze Twój czas i pieniądze, a także nasze zaangażowanie w tworzenie produktów wysokiej jakości, na każdym etapie współpracy zaczynamy od pytania: co możemy zrobić, aby rozwiązać problemy naszych klientów.</p>
-                <p class="call-to-action-wrapper"><span class="call-to-action-subtext">Pozwól nam działać i </span><a href="/" class="call-to-action">Zacznijmy już teraz</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <div class="tile service--websites">
-            <div class="service__content">
-              <div class="service__head">
-                <h2 class="title title--smaller">Sklepy internetowe</h2>
-              </div>
-              <div class="service__body">
-                <p>Jesteśmy zespołem profesjonalnych oraz doświadczonych programistów i analityków. Wspólnie tworzymy agencję pomagającą firmom oraz startup'om w tworzeniu i rozwoju dedykowanego oprogramowania.</p>
-              </div>
-            </div>
-          </div>
-          <div class="tile service--e-commerce">
-            <div class="service__content">
-              <div class="service__head">
-                <h2 class="title title--smaller">Sklepy internetowe</h2>
-              </div>
-              <div class="service__body">
-                <p>Jesteśmy zespołem profesjonalnych oraz doświadczonych programistów i analityków. Wspólnie tworzymy agencję pomagającą firmom oraz startup'om w tworzeniu i rozwoju dedykowanego oprogramowania.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <div class="row">
+    </div>
+    <section class="section section--simple">
+      <div class="container">
+        <h2 data-title="Poznaj nas bliżej" class="title title--shadow section__title">Kim jesteśmy?</h2>
+        <div class="content-box content-box--inline">
+          <div class="row middle-xs middle-sm middle-md middle-lg">
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-              <a href="/" class="project">
-                <img src="img/mockup_1.png" class="project__image" alt="">
-              </a>
+              <div class="content-box__image">
+                <img src="img/about-us.jpg" class="image">                
+              </div>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-              <a href="/" class="project">
-                <img src="img/mockup_2.png" class="project__image" alt="">
-              </a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-              <a href="/" class="project">
-                <img src="img/mockup_2.png" class="project__image" alt="">
-              </a>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-              <a href="/" class="project">
-                <img src="img/mockup_1.png" class="project__image" alt="">
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <div class="tile tile--our-projects">
-            <div>
-              <h2 class="title">Nasze ostatnie realizacje.</h2>
-              <div>
-                <p class="text">Uwielbiamy wyzwania i wierzymy, że produkty, przy których pracujemy mają ważny cel. Staramy się doradzić, aby produkty te przynosiły naszym klientom największe możliwe zyski. Jednocześnie pamiętamy o użytkownikach, dla których to wszystko powstaje. Finalnym efektem jest wiele nowoczesnych i użytecznych stron internetowych oraz systemów z branży e-commerce dla naszych klientów, <span class="text__highlight">ze wszystkich jesteśmy dumni.</span></p>
-                <p class="call-to-action-wrapper"><a href="/" class="call-to-action">Współpracuj z nami</a></p>
+              <div class="content-box__body">
+                <h3 class="title content-box__title">Działamy na najwyższym poziomie</h3>
+                <div class="content-box__content">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+                </div>
+                <a href="/" class="call-to-action">Poznaj nas bliżej</a>              
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section>
-      <div class="tile tile--contact-us center-xs">
+    <section class="section section--highlight">
+      <div class="container">
+        <h2 data-title="Pomagamy przy" class="title title--shadow section__title">Nasze usługi</h2>
         <div>
-          <h2 class="title">Zainteresowany stworzeniem udanego projektu?</h2>
-          <p class="text">Skontaktuj się z nami a razem wprowadzimy Twoje pomysły w życie!</p>
-          <p class="call-to-action-wrapper"><a href="/" class="call-to-action">Napisz do nas</a></p>    
-        </div>    
+          <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <div class="service service--first">
+                <div class="service__icon-wrapper">
+                  <i class="icofont-responsive service__icon"></i>
+                </div>
+                <h3 class="title service__name">Strony internetowe</h3>
+                <div class="service__content">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <div class="service service">
+                <div class="service__icon-wrapper">
+                  <i class="icofont-cart-alt service__icon"></i>
+                </div>
+                <h3 class="title service__name">Sklepy internetowe</h3>
+                <div class="service__content">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <div class="service service--last">
+                <div class="service__icon-wrapper">
+                  <i class="icofont-code service__icon"></i>
+                </div>
+                <h3 class="title service__name">Single Page Application</h3>
+                <div class="service__content">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-  </div>
-  <!-- end content -->
-  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+    <!-- <section class="section simple-section">
+      <div class="container">
+        
+      </div>
+    </section>
+    <section class="section highlight-section highlight-section--additional">
+      <div class="container">
+        <h2 data-title="Tworzymy super rzeczy" class="title title--shadow highlight-section__title">Ostatnie realizacje</h2>
+      </div>
+    </section>
+    <section class="section simple-section">
+      <div class="testimonials">
+        <div class="testimonial">
+          
+        </div>
+      </div>
+    </section>
+    <section class="section contact-section">
+      <div class="container">
+        <div class="row center-xs center-sm center-md center-lg">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"></div>
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"></div>      
+        </div>
+        <div>
+          
+        </div>
+        <div>
+          
+        </div>
+      </div>
+    </section> -->
+    <!-- end content -->
+    <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  </body>
   
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-</body>
-
-</html>
+  </html>
+  
