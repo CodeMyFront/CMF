@@ -1023,12 +1023,13 @@ Author's custom styles
 }
 
 .intro-wrapper {
-    background: url('../img/top_mockup_1.png') no-repeat, -webkit-gradient(linear, left top, right top, from(rgba(151,92,241,0.55)),to(rgba(96,160,251,0.85)));
-    background: url('../img/top_mockup_1.png') no-repeat, -webkit-linear-gradient(left, rgba(151,92,241,0.55) 0%,rgba(96,160,251,0.85) 100%);
-    background: url('../img/top_mockup_1.png') no-repeat, -o-linear-gradient(left, rgba(151,92,241,0.55) 0%,rgba(96,160,251,0.85) 100%);
-    background: url('../img/top_mockup_1.png') no-repeat, linear-gradient(to right, rgba(151,92,241,0.55) 0%,rgba(96,160,251,0.85) 100%);
-    background-size: auto 55%, auto;
-    background-position: right center, left top;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(151,92,241,0.55)),to(rgba(96,160,251,0.85)));
+    background: -webkit-linear-gradient(left, rgba(151,92,241,0.55) 0%,rgba(96,160,251,0.85) 100%);
+    background: -o-linear-gradient(left, rgba(151,92,241,0.55) 0%,rgba(96,160,251,0.85) 100%);
+    background: linear-gradient(to right, rgba(151,92,241,0.55) 0%,rgba(96,160,251,0.85) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-size: auto;
+    background-attachment: initial;
+    background-position: left top;
     height: 100vh;
     position: relative;
     z-index: 2;
