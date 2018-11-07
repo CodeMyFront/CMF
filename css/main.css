@@ -1146,7 +1146,7 @@ Author's custom styles
     width: 100%;
     text-transform: uppercase;
     letter-spacing: 2px;
-    opacity: .07;
+    opacity: .05;
     font-weight: 300;
     font-size: 80px;
 }
@@ -1172,7 +1172,7 @@ Author's custom styles
 }
 
 .service .service__icon {
-    font-size: 56px;
+    font-size: 76px;
 }
 
 .service .service__name {
@@ -1184,11 +1184,11 @@ Author's custom styles
 }
 
 .content-box--inline .content-box__image {
-    padding-right: 20px;
+    padding-right: 35px;
 }
 
 .content-box--inline .content-box__body {
-    padding-left: 20px;
+    padding-left: 35px;
 }
 
 .content-box .content-box__title {
