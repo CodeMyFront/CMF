@@ -1304,8 +1304,12 @@ Author's custom styles
 }
 
 .projects {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-bottom: 30px;
 }
 
@@ -1331,14 +1335,22 @@ Author's custom styles
     width: 0;
     overflow: hidden;
     height: 0;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     background: -webkit-gradient(linear, left top, right top, from(rgba(151,92,241,0.55)),to(rgba(96,160,251,0.85)));
     background: -webkit-linear-gradient(left, rgba(151,92,241,0.55) 0%,rgba(96,160,251,0.85) 100%);
     background: -o-linear-gradient(left, rgba(151,92,241,0.55) 0%,rgba(96,160,251,0.85) 100%);
     background: linear-gradient(to right, rgba(151,92,241,0.55) 0%,rgba(96,160,251,0.85) 100%);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     color: #fff;
 }
 
@@ -1350,14 +1362,22 @@ Author's custom styles
 
 .project.project--small.project--placeholder .project__body {
     overflow: hidden;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     background: -webkit-gradient(linear, left top, right top, from(rgba(151,92,241,0.55)),to(rgba(96,160,251,0.85)));
     background: -webkit-linear-gradient(left, rgba(151,92,241,0.55) 0%,rgba(96,160,251,0.85) 100%);
     background: -o-linear-gradient(left, rgba(151,92,241,0.55) 0%,rgba(96,160,251,0.85) 100%);
     background: linear-gradient(to right, rgba(151,92,241,0.55) 0%,rgba(96,160,251,0.85) 100%);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     color: #fff;
     height: 100%;
     width: 100%;
@@ -1370,8 +1390,45 @@ Author's custom styles
     max-height: 45px;
     display: block;
     margin: 0 auto;
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
     opacity: .5;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-row {
+    margin-bottom: 40px;
+}
+
+.form-row__field {
+    width: 100%;
+    color: inherit;
+    background: transparent;
+    border: none;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fff;
+    font-weight: 300;
+}
+
+.form-row__field::-webkit-input-placeholder {
+    color: inherit;
+}
+
+.form-row__field:-ms-input-placeholder {
+    color: inherit;
+}
+
+.form-row__field::-ms-input-placeholder {
+    color: inherit;
+}
+
+.form-row__field::placeholder {
+    color: inherit;
 }
     
 /* ==========================================================================
