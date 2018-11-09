@@ -1126,6 +1126,10 @@ Author's custom styles
     text-align: center;
 }
 
+.section--flat {
+    padding: 40px 0;
+}
+
 .subtitle {
     margin-top: 0;
 }
@@ -1157,6 +1161,14 @@ Author's custom styles
     opacity: .05;
     font-weight: 300;
     font-size: 80px;
+}
+
+.title--smaller {
+    font-size: 22px;
+}
+
+.title--uppercase {
+    text-transform: uppercase;
 }
 
 .service {
@@ -1263,7 +1275,7 @@ Author's custom styles
 }
 
 .call-to-action--big {
-    padding: 20px 100px;
+    padding: 20px 25px;
 }
 
 .call-to-action:after {
@@ -1429,6 +1441,21 @@ Author's custom styles
 
 .form-row__field::placeholder {
     color: inherit;
+}
+
+.email {
+    font-size: 18px;
+    color: #975cf1;
+    font-weight: 500;
+}
+
+.footer {
+    
+}
+
+.footer__title {
+    color: #975cf1;
+    margin: 0;
 }
     
 /* ==========================================================================
