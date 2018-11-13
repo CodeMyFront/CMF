@@ -24,6 +24,12 @@ body {
     line-height: 1.2;
 }
 
+@media screen and (max-width: 63em) {
+    html, body {
+        overflow-x: hidden;
+    }
+}
+
 /*
 * Remove text-shadow in selection highlight:
 * https://twitter.com/miketaylr/status/12228805301
@@ -582,7 +588,7 @@ Author's custom styles
         order: 1;
     }
 }
-
+    
 @media only screen and (min-width: 62em) {
     .container {
         width: 61rem;
@@ -1032,12 +1038,41 @@ Author's custom styles
     z-index: 2;
 }
 
-.logo-title {
-    margin: 10px 0;
+@media only screen and (max-width: 63em) {
+    .intro-wrapper {
+        height: auto;
+        background: -webkit-gradient(linear, left top, right top, from(rgba(151,92,241,1)),to(rgba(96,160,251,1)));
+        background: -webkit-linear-gradient(left, rgba(151,92,241,1) 0%,rgba(96,160,2511) 100%);
+        background: -o-linear-gradient(left, rgba(151,92,241,1) 0%,rgba(96,160,251,1) 100%);
+        background: linear-gradient(to right, rgba(151,92,241,1) 0%,rgba(96,160,251,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    }
+}   
+
+.realizations {
+    
 }
 
-.logo-title .logo-title__image {
-    height: 30px;
+@media only screen and (max-width: 63em) {
+    .realizations {
+        display: none;
+    }
+} 
+
+.logo-title {
+    margin: 10px 0;
+} 
+
+@media screen and (max-width: 63em) {
+    .logo-title {
+        margin-top: 0;
+        padding-top: 10px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.logo {
+    height: 30px;    
 }
 
 .top-bar {
@@ -1054,6 +1089,14 @@ Author's custom styles
     width: 100%;
 }
 
+@media only screen and (max-width: 63em) {
+    .top-bar {
+        display: block;
+        position: static;
+        text-align: center;
+    }
+}
+
 .navigation-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1062,6 +1105,13 @@ Author's custom styles
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+}
+
+@media only screen and (max-width: 63em) {
+    .navigation-list {
+        padding-left: 0;
+        display: block;
+    }
 }
 
 .navigation-list li {
@@ -1090,6 +1140,12 @@ Author's custom styles
 .intro-content .intro-content__title {
     font-size: 46px;
     margin-bottom: 0;
+}
+
+@media screen and (max-width: 63em) {
+    .intro-content .intro-content__title {
+        font-size: 42px;
+    }
 }
 
 .section {
@@ -1186,6 +1242,12 @@ Author's custom styles
     margin-left: 70px;
 }
 
+@media screen and (max-width: 63em) {
+    .service--first, .service--last {
+        margin: 0;
+    }
+}
+
 .service .service__icon-wrapper {
     margin-bottom: 20px;
     margin-top: 0;
@@ -1209,6 +1271,15 @@ Author's custom styles
 
 .content-box--inline .content-box__body {
     padding-left: 35px;
+}
+
+@media screen and (max-width: 63em) {
+    .content-box--inline .content-box__body {
+        padding-left: 0;
+    }
+    .content-box--inline .content-box__image {
+        padding-right: 0;
+    }
 }
 
 .content-box .content-box__title {
@@ -1272,6 +1343,14 @@ Author's custom styles
     display: inline-block;
     min-width: 200px;
     text-align: center;
+    border: 0;
+}
+
+@media screen and (max-width: 63em) {
+    .call-to-action {
+        width: 100%;
+        min-width: initial;
+    }
 }
 
 .call-to-action--big {
@@ -1325,6 +1404,13 @@ Author's custom styles
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 63em) {
+    .projects {
+        display: block;
+        margin-bottom: 0;
+    }
+}
+
 .projects.projects--last-row {
     margin-bottom: 90px;
 }
@@ -1334,6 +1420,14 @@ Author's custom styles
     max-width: 350px;
     margin: 0 15px;
     text-align: center;
+}
+
+@media screen and (max-width: 63em) {
+    .project {
+        margin-bottom: 30px;
+        max-width: 100%;
+        width: auto;
+    }
 }
 
 .project.project--small.project--hover {
@@ -1457,6 +1551,18 @@ Author's custom styles
     color: #975cf1;
     margin: 0;
 }
+
+@media screen and (max-width: 63em) {
+    [class*="col-xs"], [class*="col-sm"] {
+        padding: 35px 0;
+    }
+}
+
+@media screen and (max-width: 63em) {
+    .container {
+        padding: 0 1rem;
+    }
+}    
     
 /* ==========================================================================
 Helper classes
