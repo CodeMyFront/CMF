@@ -21,33 +21,33 @@
 <body>
   <!-- Add your site or application content here -->
   <div class="intro">
-    <video autoplay muted loop class="video-background">
+    <!-- <video autoplay muted loop class="video-background">
       <source src="videos/intro_background.mp4" type="video/mp4">
-      </video>
+      </video> -->
       <div class="intro-wrapper">
         <div class="container container--full-height container--relative">
           <header class="top-bar">
             <h1 class="logo-title">
               <a href="http://codemyfront.pl" class="logo-title__link">
-                <img class="logo-title__image" src="img/codemyfront_logo.svg" alt="codemyfront">
+                <img class="logo" src="img/codemyfront_logo.svg" alt="codemyfront logo">
               </a>
             </h1>
             <nav>
               <ul class="navigation-list">
-                <li><a href="#realizacje">Realizacje</a></li>
+                <li class="realizations"><a href="#realizacje">Realizacje</a></li>
                 <li><a href="#kontakt" class="call-to-action">Darmowa wycena</a></li>
               </ul>
             </nav>
           </header>
           <section class="intro-content">
-            <div class="row row--full-height middle-xs middle-sm middle-md middle-lg">
-              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="row row--full-height top-xs top-sm middle-md middle-lg">
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs center-sm start-md start-lg">
                 <div>
                   <p class="subtitle intro-content__subtitle">Współpracuj z ludźmi którzy to kochają</p>
                   <h2 class="title intro-content__title">Stworzy<span class="highlight-text">my</span> nowoczesne rozwiązanie dla Ciebie i twojego <span class="typewrite" data-period="2000" data-type='["biznesu.", "produktu."]'>biznesu.</span></h2>
                 </div>
               </div>
-              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 end-xs end-sm end-md end-lg">
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-xs center-sm end-md end-lg">
                 <img src="img/top_mockup.png" class="image">
               </div>
             </div>
@@ -60,12 +60,12 @@
         <h2 data-title="Poznaj nas bliżej" class="title title--shadow section__title">Kim jesteśmy?</h2>
         <div class="content-box content-box--inline">
           <div class="row middle-xs middle-sm middle-md middle-lg">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
               <div class="content-box__image">
                 <img src="img/about_us.jpg" class="image" style="border-radius: 6px;">                
               </div>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 first-xs first-sm last-md last-lg">
               <div class="content-box__body">
                 <h3 class="title content-box__title">Działamy na najwyższym poziomie</h3>
                 <div class="content-box__content">
@@ -87,8 +87,8 @@
       <div class="container">
         <h2 data-title="Pomagamy przy" class="title title--shadow section__title">Nasze usługi</h2>
         <div>
-          <div class="row">
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+          <div class="row center-xs center-sm start-md start-lg">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="service service--first">
                 <div class="service__icon-wrapper">
                   <i class="icofont-responsive service__icon"></i>
@@ -101,8 +101,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-              <div class="service service">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="service">
                 <div class="service__icon-wrapper">
                   <i class="icofont-cart-alt service__icon"></i>
                 </div>
@@ -114,7 +114,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="service service--last">
                 <div class="service__icon-wrapper">
                   <i class="icofont-code service__icon"></i>
@@ -221,39 +221,41 @@
       <h2 class="title section__title">Z nami Twój projekt także się uda!</h2>
       <div class="center-xs center-sm center-md center-lg">
         <div class="contact-form">
-          <div class="form-row">
-            <div class="form-row__body">
-              <input type="text" class="form-row__field" placeholder="Imię i nazwisko*">
+          <form action="https://formspree.io/biuro@codemyfront.pl" method="POST">
+            <div class="form-row">
+              <div class="form-row__body">
+                <input type="text" class="form-row__field" name="name" placeholder="Imię i nazwisko*">
+              </div>
             </div>
-          </div>
-          <div class="form-row">
-            <div class="form-row__body">
-              <input type="text" class="form-row__field" placeholder="E-mail*">
+            <div class="form-row">
+              <div class="form-row__body">
+                <input type="text" class="form-row__field" name="email" placeholder="E-mail*">
+              </div>
             </div>
-          </div>
-          <div class="form-row">
-            <div class="form-row__body">
-              <input type="text" class="form-row__field" placeholder="Telefon">
+            <div class="form-row">
+              <div class="form-row__body">
+                <input type="text" class="form-row__field" name="phone" placeholder="Telefon">
+              </div>
             </div>
-          </div>
-          <div class="form-row">
-            <div class="form-row__body">
-              <textarea class="form-row__field" placeholder="Krótki opis projektu"></textarea>
+            <div class="form-row">
+              <div class="form-row__body">
+                <textarea class="form-row__field" name="description" placeholder="Krótki opis projektu"></textarea>
+              </div>
             </div>
+            <p><button type="submit" class="call-to-action call-to-action--big">Przedstaw nam swoją wizję</button></p>          
           </div>
-        </div>
-        <p><a href="/" class="call-to-action call-to-action--big">Przedstaw nam swoją wizję</a></p>
+        </form>
       </div>
     </div>
   </section>
   <footer class="section section--simple section--flat footer">
     <div class="container">
       <h2 class="visuallyhidden">Dodatkowe informacje</h2>
-      <div class="row between-xs between-sm between-md between-lg">
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <h2 class="title title--smaller title--uppercase footer__title">code<span class="highlight-text">my</span>front</h2>
+      <div class="row center-xs center-sm start-md start-lg between-xs between-sm between-md between-lg top-xs top-sm middle-md middle-lg">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <p><img src="img/codemyfront_logo_purple.svg" class="logo" alt="codemyfront logo"></p>
         </div>
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 end-xs end-sm end-md end-lg">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 start-xs start-sm end-md end-lg">
           <span>NIP: 8822126889 | </span>                
           <a href="mailto:biuro@codemyfront.pl" class="email">biuro@codemyfront.pl</a>
         </div>
