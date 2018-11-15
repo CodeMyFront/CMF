@@ -1,4 +1,6 @@
 {
+    "short_name": "Codemyfront",
+    "name": "Codemyfront",
     "icons": [{
         "src": "icon.png",
         "sizes": "192x192",
